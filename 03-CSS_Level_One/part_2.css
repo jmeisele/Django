@@ -1,0 +1,19 @@
+body{
+  background : url(http://static.asiawebdirect.com/m/phuket/portals/phuket-com/homepage/island/naiharn-beach/pagePropertiesImage/naiharn-beach.jpg);
+  background-repeat: no-repeat;
+}
+
+div{
+  background-color: blue;
+  border-color: orange;
+  border-width: 5px;
+  border-style: double;
+}
+
+p{
+  color: yellow;
+}
+span{
+  background: red;
+  color: black;
+}
