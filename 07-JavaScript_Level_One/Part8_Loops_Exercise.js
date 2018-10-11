@@ -13,10 +13,17 @@
 // Do this with a While Loop and a For Loop
 
 // While Loop
-
+// word = "hello";
+// i = 0;
+// while (i < 5) {
+//   console.log(word);
+//   i += 1;
+// }
 
 // For Loop
-
+// for (var i = 0; i < 5; i++) {
+//   console.log(word);
+// }
 
 
 
@@ -29,7 +36,18 @@
 
 // METHOD ONE
 // While Loop
-
+// i = 0;
+// while (i < 25) {
+//   if (i %2 ==1) {
+//     console.log(i);
+//   }
+//   i++;
+// }
 
 // METHOD TWO
 // For Loop
+// for (var i = 0; i < 25; i++) {
+//   if (i % 2 == 1) {
+//     console.log(i);
+//   }
+// }
