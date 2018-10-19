@@ -13,7 +13,14 @@ var employee = {
 
 // Add a method called nameLength that prints out the
 // length of the employees name to the console.
-
+var employee = {
+  name: "John Smith",
+  job: "Programmer",
+  age: 31,
+  nameLength : function(){
+    console.log(this.name.length);
+  }
+}
 
 ///////////////////
 // PROBLEM 2 /////
@@ -23,7 +30,12 @@ var employee = {
 var employee = {
   name: "John Smith",
   job: "Programmer",
-  age: 31
+  age: 31,
+  profession : function(){
+    alert("Name is " + this.name),
+    alert("Job is " + this.job),
+    alert("Age is " + this.age)
+  }
 }
 
 // Write program that will create an Alert in the browser of each of the
@@ -41,7 +53,12 @@ var employee = {
 var employee = {
   name: "John Smith",
   job: "Programmer",
-  age: 31
+  age: 31,
+  lastName : function(){
+    var names = this.name.split(" ");
+    var last = names[names.length-1];
+    console.log(last);
+  }
 }
 
 // Add a method called lastName that prints
